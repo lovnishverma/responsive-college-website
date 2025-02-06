@@ -39,11 +39,11 @@ h1 {
 
 /* Navbar Styling */
 .navbar {
-  background-color: #1d3557;
+  background-color: WHITE;
 }
 
 .navbar a {
-  color: white !important;
+  color: black !important;
   font-size: 18px;
   font-weight: bold;
   padding: 12px 20px;
@@ -51,7 +51,7 @@ h1 {
 
 .navbar a:hover {
   background-color: #457b9d;
-  color: white;
+  color: black;
   border-radius: 5px;
 }
 
@@ -60,7 +60,7 @@ h1 {
 }
 
 .navbar-toggler-icon {
-  background-color: white;
+  background-color: black;
 }
 
 
@@ -85,7 +85,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 15px;
-  color: white;
+  color: black;
   border-radius: 12px;
   background: linear-gradient(135deg, #2b5876, #4e4376);
 }
@@ -144,7 +144,7 @@ h1 {
   bottom: 20px;
   right: 20px;
   background-color: #222;
-  color: white;
+  color: black;
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
