@@ -33,7 +33,7 @@ h1 {
 
 /* Logo image size */
 .logo {
-  width: 60px;
+  width: 1200px;
   height: auto;
 }
 
@@ -54,6 +54,10 @@ h1 {
   color: black;
   border-radius: 5px;
 }
+.navbar-toggler .fas {
+  color: black;
+}
+
 
 .navbar-brand img {
   width: 50px;
