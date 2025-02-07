@@ -1,22 +1,13 @@
-// Get the button element
-      let scrollTopBtn = document.getElementById("scrollTopBtn");
-
-      // Show the button when scrolling down 200px
-      window.onscroll = function () {
-        if (
-          document.body.scrollTop > 200 ||
-          document.documentElement.scrollTop > 200
-        ) {
-          scrollTopBtn.style.display = "block";
-        } else {
-          scrollTopBtn.style.display = "none";
-        }
-      };
-
-      // Scroll to top function
-      scrollTopBtn.onclick = function () {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth", // Smooth scrolling to top
-        });
-      };
+// ===== Scroll to Top ==== 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});

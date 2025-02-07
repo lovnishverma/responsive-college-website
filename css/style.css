@@ -10,10 +10,10 @@ body {
 
 /* Stylish Heading */
 h1 {
-  font-family: "Poppins", sans-serif;  /* Modern and professional font */
-  font-weight: 700;  /* Bold for emphasis */
-  font-size: 2.5rem;  /* Adjust size */
-  text-transform: uppercase;  /* Makes it look structured */
+  font-family: "Poppins", sans-serif; /* Modern and professional font */
+  font-weight: 700; /* Bold for emphasis */
+  font-size: 2.5rem; /* Adjust size */
+  text-transform: uppercase; /* Makes it look structured */
   text-align: center;
   margin-bottom: 1.5rem;
   background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient effect */
@@ -29,7 +29,6 @@ h1 {
     font-size: 2rem;
   }
 }
-
 
 /* Logo image size */
 .logo {
@@ -58,7 +57,6 @@ h1 {
   color: black;
 }
 
-
 .navbar-brand img {
   width: 50px;
 }
@@ -66,7 +64,6 @@ h1 {
 .navbar-toggler-icon {
   background-color: black;
 }
-
 
 /* Carousel styling */
 .carousel-item img {
@@ -142,21 +139,58 @@ h1 {
   margin: 0;
 }
 
-/* Scroll to Top Button styling */
-#scrollTopBtn {
+#return-to-top {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #222;
-  color: black;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
   display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
 }
 
-#scrollTopBtn:hover {
-  background-color: orange;
+/* Extra Things */
+body {
+  background: #eee;
+  font-family: "Open Sans", sans-serif;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 50px;
+}
+h3 i {
+  color: #444;
 }
